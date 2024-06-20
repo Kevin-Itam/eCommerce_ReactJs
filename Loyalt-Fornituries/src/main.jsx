@@ -7,12 +7,6 @@ import Home from "./Pages/Home.jsx"
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Shop from './Pages/Shop.jsx'
 
-// const router = createBrowserRouter([
-//   {
-//     path:"/",
-//     element:<Home/>
-//   }
-// ])
 const router = createBrowserRouter([
   {
     path:"/",
