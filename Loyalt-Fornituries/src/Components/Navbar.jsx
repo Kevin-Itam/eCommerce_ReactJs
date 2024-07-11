@@ -15,8 +15,8 @@ const Navbar = () => {
         <ul className=' relative flex flex-row gap-10'>
           <Link to="/"><li>Home</li></Link>
           <Link to="/shop"><li>Shop</li></Link>
-          <Link to="/shop"><li>CART</li></Link>
-          <Link to="/shop"><li>lOGIN</li></Link>
+          <Link to=""><li>CART</li></Link>
+          <Link to=""><li>lOGIN</li></Link>
         </ul>
         <ul className=''>Drop-Drawn</ul>
       </div>
