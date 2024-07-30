@@ -5,7 +5,7 @@ export default function App() {
     <div className='container'>
       <Navbar/>
       <h1>Menu principal</h1>
-      <div className=' position: relative; '>
+      <div className=''>
         <Outlet/>
       </div>
     </div>
