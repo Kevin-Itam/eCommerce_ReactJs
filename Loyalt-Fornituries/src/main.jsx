@@ -7,15 +7,17 @@ import Home from "./Pages/HomePage.jsx"
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Shop from './Pages/Shop.jsx'
 
+const homeroutes = ["/" , "/Home" , "/home"];
 const router = createBrowserRouter([
   {
     path:"/",
     element:<App/>,
     errorElement:<ErrorPage/>,
-    children:[{
-      path:"/",
-      element:<Home/>,
-    },{
+    children:[
+      ...homeroutes.map((path)=>({path:path,
+        element:<Home/>
+      }))
+      ,{
       path:"shop",
       element:<Shop/>,
     }]

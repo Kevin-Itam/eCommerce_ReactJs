@@ -5,7 +5,10 @@ export default {
   theme: {
     extend: {
       width: {
-        'src': '36rem' 
+        'src': '36rem' ,
+      },
+      height:{
+        'imgcard-h': '500px',
       }
     },
   },
