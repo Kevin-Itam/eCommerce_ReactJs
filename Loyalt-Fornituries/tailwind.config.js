@@ -9,6 +9,9 @@ export default {
       },
       height:{
         'imgcard-h': '500px',
+      },
+      padding:{
+        'p-2': '0.5'
       }
     },
   },
