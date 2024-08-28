@@ -5,7 +5,7 @@ export default function App() {
     <div className='container px-10'>
       <Navbar/>
       <h1>Menu principal</h1>
-      <div className=''>
+      <div>
         <Outlet/>
       </div>
     </div>
