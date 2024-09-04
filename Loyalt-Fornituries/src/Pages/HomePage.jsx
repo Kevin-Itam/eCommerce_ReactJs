@@ -11,8 +11,8 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4 overflow-hidden rounded ">
             <div className="overflow-hidden rounded-xl"><a href="#"><img className="w-full h-full object-cover rounded-xl transform transition-transform duration-500 hover:scale-110" src={imgtest} alt="card" /></a></div>
             <div className="flex flex-col gap-4 bg-slate-500 pt-6 ">
-              <div><button className='bg-red-600 rounded-xl px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
-              <h1 className="break-words font-bold text-xl">texto random do tiiitulo do artigo</h1>
+              <div><button className='bg-red-600 rounded px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
+              <h1 className="break-words font-bold text-xl text-black">texto random random do tiiitulo do artigo</h1>
               <div>qqquem fex e data do artigo</div>
               <p>previa do artigo</p>
               <div>leia mais com o link do artigo</div>
@@ -22,8 +22,8 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4 overflow-hidden ounded">
             <div className="overflow-hidden rounded-xl"><a href="#"><img className="w-full h-full object-cover rounded-xl transform transition-transform duration-500 hover:scale-110" src={imgtest} alt="card" /></a></div>
             <div className="bg-slate-500 pt-6">
-              <div><button className=' bg-red-600 rounded-xl px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
-              <h3>texto random do tiiitulo do artigo</h3>
+              <div><button className=' bg-red-600 rounded px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
+              <h1  className="break-words font-bold text-xl text-black">texto random do tiiitulo do artigo</h1>
               <div>qqquem fex e data do artigo</div>
               <p>previa do artigo</p>
               <div>leia mais com o link do artigo</div>
@@ -33,8 +33,8 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4 overflow-hidden rounded">
             <div className="overflow-hidden rounded-xl"><a href="#"><img className="w-full h-full object-cover rounded-xl transform transition-transform duration-500 hover:scale-110" src={imgtest} alt="card" /></a></div>
             <div className="bg-slate-500 pt-6">
-              <div><button className=' bg-red-600 rounded-xl px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
-              <h3>texto random do tiiitulo do artigo</h3>
+              <div><button className=' bg-red-600 rounded px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
+              <h1  className="break-words font-bold text-xl text-black">texto random do tiiitulo do artigo</h1>
               <div>qqquem fex e data do artigo</div>
               <p>previa do artigo</p>
               <div>leia mais com o link do artigo</div>
@@ -44,8 +44,8 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4 overflow-hidden rounded">
             <div className="overflow-hidden rounded-xl"><a href="#"><img className="w-full h-full object-cover rounded-xl transform transition-transform duration-500 hover:scale-110" src={imgtest} alt="card" /></a></div>
             <div className="bg-slate-500 pt-6">
-              <div><button className=' bg-red-600 rounded-xl px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
-              <h3>texto random do tiiitulo do artigo</h3>
+              <div><button className=' bg-red-600 rounded px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
+              <h1  className="break-words font-bold text-xl text-black">texto random do tiiitulo do artigo</h1>
               <div>qqquem fex e data do artigo</div>
               <p>previa do artigo</p>
               <div>leia mais com o link do artigo</div>
@@ -55,8 +55,8 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4 overflow-hidden rounded">
             <div className="overflow-hidden rounded-xl"><a href="#"><img className="w-full h-full object-cover rounded-xl transform transition-transform duration-500 hover:scale-110" src={imgtest} alt="card" /></a></div>
             <div className="bg-slate-500 pt-6">
-              <div><button className=' bg-red-600 rounded-xl px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
-              <h3>texto random do tiiitulo do artigo</h3>
+              <div><button className=' bg-red-600 rounded px-4 transition-all duration-500 ease-in-out hover:bg-slate-700'>tag do card</button></div>
+              <h1  className="break-words font-bold text-xl text-black">texto random do tiiitulo do artigo</h1>
               <div>qqquem fex e data do artigo</div>
               <p>previa do artigo</p>
               <div>leia mais com o link do artigo</div>
