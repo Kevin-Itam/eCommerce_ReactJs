@@ -10,7 +10,8 @@ export default {
       },
       height:{
         'imgcard-h': '500px',
-        '400': '300px',
+        '300': '300px',
+        '400': '400px',
       },
       padding:{
         'p-2': '0.5'
