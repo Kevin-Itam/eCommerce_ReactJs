@@ -1,4 +1,5 @@
 import Home_Grid from "../Components/GridHome"
+import Articles from "../Components/TopArticles"
 import imgtest from '../assets/flamingos.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
@@ -96,10 +97,13 @@ export default function App() {
               alt="publi"
             />
           </div>
-          <div className="bg-stone-500 rounded-xl w-full h-300 "></div>
+          <div className="bg-stone-500 rounded-xl w-full h-300 ">
+            <h3>TAG CLOUD</h3>
+          </div>
           <div className="bg-stone-500 rounded-xl w-full h-400"></div>
         </div>
       </div>
+      <Articles/>
     </div>
   );
 }
