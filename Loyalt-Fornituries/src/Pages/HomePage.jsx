@@ -1,5 +1,6 @@
 import Home_Grid from "../Components/GridHome"
 import Articles from "../Components/TopArticles"
+import Lastpost from "../Components/Lastpost"
 import imgtest from '../assets/flamingos.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
@@ -40,7 +41,6 @@ export default function App() {
     },
     
   ];
-
   return (
     <div>
       <Home_Grid/>
@@ -104,6 +104,7 @@ export default function App() {
         </div>
       </div>
       <Articles/>
+      <Lastpost/>
     </div>
   );
 }
