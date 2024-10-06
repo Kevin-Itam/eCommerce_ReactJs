@@ -7,8 +7,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
-    <nav className=' flex flex-col gap-28 fixed w-full py-16 justify-between container'>
-
+    <nav className=' flex flex-col gap-24 fixed w-full py-14 container'>
       <div className='flex gap-10 items-center justify-between'>
         <div>
           <FontAwesomeIcon icon={faBars} size='2x' /> 
@@ -22,7 +21,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='flex flex-row gap-16 items-center justify-center'>
+      <div className='flex flex-row gap-16 justify-center'>
         <ul className=' relative flex flex-row gap-10'>
           <Link to="/"><li>Home</li></Link>
           <Link to="/shop"><li>Shop</li></Link>
