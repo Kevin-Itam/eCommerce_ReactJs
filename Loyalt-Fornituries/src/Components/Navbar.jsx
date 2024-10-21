@@ -2,7 +2,8 @@ import React, { useRef, useEffect } from 'react';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import Nav_menu from './Nav_menu';
 
 const Navbar = () => {
   const inputRef = useRef(null);
@@ -37,8 +38,8 @@ const Navbar = () => {
         <div className="relative left-2/4 -translate-x-1/2">
           <img src={logo} alt="logo" />
         </div>
-        <div>
-          <FontAwesomeIcon icon={faBars} size="2x" />
+        <div className='absolute '>
+            <Nav_menu/>
         </div>
       </div>
       <div className="">
