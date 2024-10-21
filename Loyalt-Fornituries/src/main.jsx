@@ -6,6 +6,9 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from "./Pages/HomePage.jsx"
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Shop from './Pages/Shop.jsx'
+import Cart from './Pages/Cart.jsx'
+import Login from './Pages/Login.jsx'
+
 
 const homeroutes = ["/" , "/Home" , "/home"];
 const router = createBrowserRouter([
@@ -16,11 +19,20 @@ const router = createBrowserRouter([
     children:[
       ...homeroutes.map((path)=>({path:path,
         element:<Home/>
-      }))
-      ,{
-      path:"shop",
-      element:<Shop/>,
-    }]
+      })),
+      {
+        path:"shop",
+        element:<Shop/>,
+      },
+      {
+        path:"Cart",
+        element:<Cart/>,
+      },
+      {
+        path:"Login",
+        element:<Login/>,
+      }
+    ,]
   }
 ])
 

@@ -94,12 +94,12 @@ export default function App() {
         <div className="grid grid-rows-[repeat(3, 200px)] gap-8">
           <div className="bg-stone-500 rounded-xl w-full h-[400px] overflow-hidden relative">
             <img
-              className="w-full h-full object-cover rounded-xl transform transition-transform duration-500 hover:scale-110"
+              className="w-full h-full max-h-300 object-cover rounded-xl transform transition-transform duration-500 hover:scale-110"
               src={imgtest}
               alt="publi"
             />
           </div>
-          <div className="bg-stone-500 rounded-xl w-full h-300 ">
+          <div className="bg-stone-500 rounded-xl w-full max-h-300 ">
             <h3>TAG CLOUD</h3>
           </div>
           <div className="bg-stone-500 rounded-xl w-full h-400"></div>

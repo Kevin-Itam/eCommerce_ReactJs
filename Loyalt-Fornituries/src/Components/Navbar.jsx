@@ -32,37 +32,39 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="flex flex-col gap-24 fixed w-full py-16 container">
-      <div className="flex">
-        <div>
-          <FontAwesomeIcon icon={faBars} size="2x" />
-        </div>
+    <nav className="flex flex-col gap-24 fixed w-full pt-20 pb-10 px-10 container">
+      <div className="flex justify-between">
         <div className="relative left-2/4 -translate-x-1/2">
           <img src={logo} alt="logo" />
         </div>
+        <div>
+          <FontAwesomeIcon icon={faBars} size="2x" />
+        </div>
       </div>
-      <div className="flex flex-row items-center ">
-        <ul className="relative left-1/4 flex flex-row gap-10">
-          <Link to="/"><li>Home</li></Link>
-          <Link to="/shop"><li>Shop</li></Link>
-          <Link to=""><li>Cart</li></Link>
-          <Link to=""><li>Login</li></Link>
-        </ul>
-        <div className="relative left-60 max-w-md mx-auto w-full">
-          <form className="relative w-full ">
-            <input
-              type="search"
-              ref={inputRef}
-              onBlur={handleBlur}
-              className="peer cursor-pointer relative z-10 h-12 w-32 rounded-xl border border-gray-200 bg-transparent pl-28 outline-none focus:w-full focus:cursor-text focus:border-orange-300 focus:ring-orange-600  focus:pr-4 duration-300 items-center flex"
-            />
-            <div className="absolute inset-y-0 my-auto h-6 w-32 peer-focus:text-orange-500">
-              <div className="flex items-center gap-2 justify-center">
-                <FontAwesomeIcon icon={faMagnifyingGlass} />
-                <span>Search</span>
+      <div className="">
+        <div className='flex flex-row justify-between'>
+          <ul className="flex flex-row gap-16 text-lg pt-4">
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/shop"><li>Shop</li></Link>
+            <Link to="/Cart"><li>Cart</li></Link>
+            <Link to="/Login"><li>Login</li></Link>
+          </ul>
+          <div className="max-w-md  w-full">
+            <form className="flex relative w-full justify-end">
+              <input
+                type="search"
+                ref={inputRef}
+                onBlur={handleBlur}
+                className="peer cursor-pointer relative z-10 h-12 w-40 rounded-xl border border-gray-200 bg-transparent pl-5 outline-none focus:w-full focus:cursor-text focus:border-orange-300 focus:ring-orange-600  focus:pr-4 duration-300 items-center flex"
+              />
+              <div className="absolute inset-y-0 my-auto h-6 w-32 peer-focus:text-orange-500 pr-10">
+                <div className="flex items-center gap-2 justify-center">
+                  <FontAwesomeIcon icon={faMagnifyingGlass} />
+                  <span>Search</span>
+                </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </nav>
