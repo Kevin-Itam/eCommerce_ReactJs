@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="relative left-2/4 -translate-x-1/2">
           <img src={logo} alt="logo" />
         </div>
-        <div className='absolute '>
+        <div className='absolute right-0'>
             <Nav_menu/>
         </div>
       </div>

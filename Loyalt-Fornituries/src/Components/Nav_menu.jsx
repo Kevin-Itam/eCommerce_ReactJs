@@ -10,16 +10,16 @@ export default function Nav_menu() {
   };
 
   return (
-    <div>
+    <div className='flex flex-col justify-end'> 
       {/* Ícone de Menu */}
-      <div onClick={toggleMenu} className="cursor-pointer">
+      <div onClick={toggleMenu} className="cursor-pointer flex justify-end">
         <FontAwesomeIcon icon={faBars} size="2x" />
       </div>
 
       {/* Menu Lateral */}
       <div
-        className={`relative top-0 right-0 w-64 h-full bg-gray-800 text-white transform ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+        className={`relative z-50 w-96 h-full bg-gray-800 text-white transform ${
+          isMenuOpen ? 'translate-x-0 block' : 'translate-x-full hidden'
         } transition-transform duration-300 ease-in-out`}
       >
         <div className="p-4">
